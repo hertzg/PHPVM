@@ -47,11 +47,11 @@ public_folder         = "/vagrant"
 # Database Configuration
 ##
 # MySQL
-mysql_root_password   = ""   # We'll assume user "root"
+mysql_root_password   = "root"   # We'll assume user "root"
 mysql_version         = "5.5"    # Options: 5.5 | 5.6
 mysql_enable_remote   = "false"  # remote access enabled when true
 # PgSQL
-pgsql_root_password   = ""   # We'll assume user "root"
+pgsql_root_password   = "root"   # We'll assume user "root"
 
 Vagrant.configure("2") do |config|
 
