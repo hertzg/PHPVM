@@ -30,17 +30,17 @@ A fresh setuped Ubuntu virtual machine, running:
 
 
 ## Instructions
-1. Clone/ copy this project in your application working copy.
-2. Then run, vagrant up from your faverout terminal.
-3. In few mintes your machine will be ready and all project files will be synced.
-4. Open browser and type: 192.168.22.10:4567 (your newly created host)
+1. After installing Vagrant, you might need a virtual machine. I have used precise32, which can be downloaded first but running command: "vagrant box add precise32 http://files.vagrantup.com/precise32.box"
+2. Clone/ copy this project in your application working copy.
+3. Run command "vagrant up" from your faverout terminal.
+4. In few mintes your machine will be ready and all project files will be synced.
+5. Open browser and type: 192.168.22.10:4567 (your newly created host)
 
 
 ## Screenshots
-<img src="http://waqaralamgir.tk/app/PHPVM/screen-shots/1.png" width="340" />&nbsp;&nbsp;
-<img src="http://waqaralamgir.tk/app/PHPVM/screen-shots/2.png" width="340" />
-<img src="http://waqaralamgir.tk/app/PHPVM/screen-shots/3.png" width="340" />&nbsp;&nbsp;
-<img src="http://waqaralamgir.tk/app/PHPVM/screen-shots/4.png" width="340" />
+![vagrant up](https://raw.github.com/waqar-alamgir/PHPVM/master/screenshots/vagrant-up.png)
+![vagrant running](https://raw.github.com/waqar-alamgir/PHPVM/master/screenshots/vagrant-running.png)
+![vagrant destroy](https://raw.github.com/waqar-alamgir/PHPVM/master/screenshots/vagrant-destroy.png)
 
 
 ## Developer Resources
